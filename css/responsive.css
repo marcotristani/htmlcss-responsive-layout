@@ -7,7 +7,7 @@
   }
 
   .social-networks .btn {
-    width: 19%;
+    width: 20%;
   }
 }
 /*Tablet*/
@@ -22,7 +22,7 @@
     display: inline-block;
   }
   .recipe-title .recipe-name {
-    font-size: 2em;
+    font-size: 2rem;
   }
 
   .ads {
@@ -35,13 +35,13 @@
     flex-wrap: wrap;
   }
   .quick-notes ul li {
-    width: 30%;
+    width: calc(100% / 3);
   }
 }
 /*Desktop*/
 @media screen and (min-width: 992px) {
   .recipe-title .recipe-name {
-    font-size: 2.5em;
+    font-size: 2.5rem;
   }
   .recipe-card {
     display: flex;
