@@ -1,13 +1,18 @@
 /* Soluzione qui */
 /*Large modile*/
-@media screen and (min-width : 568px) {
-    
-} 
-/*Tablet*/
-@media screen and (min-width : 768px) {
+@media screen and (min-width: 568px) {
+  .clearfix img {
+    float: left;
+    margin: 0 10px 0 0;
+  }
 
+  .social-networks .btn {
+    width: 19%;
+  }
+}
+/*Tablet*/
+@media screen and (min-width: 768px) {
 }
 /*Desktop*/
-@media  screen and (min-width : 992px) {
-    
+@media screen and (min-width: 992px) {
 }
