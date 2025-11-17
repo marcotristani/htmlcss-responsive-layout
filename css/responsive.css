@@ -12,6 +12,28 @@
 }
 /*Tablet*/
 @media screen and (min-width: 768px) {
+    #topbar {
+        justify-content: flex-start;
+    }
+    main {
+        padding: 2.5em;
+    }
+    .recipe-title .recipe-origin {
+        display: inline-block;
+    }
+    .recipe-title .recipe-name {
+        font-size: 2em;
+    }
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .quick-notes ul li {
+        width: 30%;
+    }
+    .ads {
+        display: block;
+    }
 }
 /*Desktop*/
 @media screen and (min-width: 992px) {
